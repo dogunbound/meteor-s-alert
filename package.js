@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom('METEOR@1.1.0.3');
+    api.versionsFrom('METEOR@2.0');
     api.use('mongo');
     api.use('templating');
     api.use('ui');
@@ -23,7 +23,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-    api.versionsFrom('METEOR@1.1.0.3');
+    api.versionsFrom('METEOR@2.0');
     api.use(['jquery'], ['client']);
     api.use([
         'templating',
